@@ -2,7 +2,7 @@ import Calendar from './components/Calendar';
 
 function App() {
   return (
-    <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950 flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950 flex flex-col items-center justify-center px-4 py-8 sm:px-6 lg:px-8">
       <header className="mb-8 text-center">
         <h1 className="text-4xl font-extrabold text-zinc-900 dark:text-zinc-50 tracking-tight mb-2">
           Minha Escala
