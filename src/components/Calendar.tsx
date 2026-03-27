@@ -9,13 +9,12 @@ import {
   endOfWeek, 
   eachDayOfInterval, 
   isSameMonth, 
-  isSameDay, 
   isToday 
 } from 'date-fns';
 import { ptBR } from 'date-fns/locale';
 import { ChevronLeft, ChevronRight, Briefcase, Coffee, Calendar as CalendarIcon } from 'lucide-react';
 import { cn } from '../lib/utils';
-import { getDayStatus } from '../utils/schedule';
+import { getDayStatus, type DayStatus } from '../utils/schedule';
 
 const Calendar: React.FC = () => {
   const [currentDate, setCurrentDate] = useState(new Date());
